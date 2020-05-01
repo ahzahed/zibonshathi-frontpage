@@ -1,17 +1,17 @@
 /*=======================================Extra small device===========================================*/
 @media(max-width:575px){
     .navbar-light .navbar-toggler {
-        border-color: transparent;
+        border-color: #f35c00;
     }
     button:focus {
         outline: 0;
     }
     .navbar-toggler i{
-        color: #fff;
+        color: #f35c00;
         font-size: 24px;
     }
     .navbar-collapse {
-        background: #222;
+        background: #f35c00;
         text-align: center;
         padding-top: 10px;
     }
@@ -376,17 +376,17 @@
 /*==========================================Small Device========================================*/
 @media(min-width:576px) and (max-width:767px){
     .navbar-light .navbar-toggler {
-        border-color: transparent;
+        border-color: #f35c00;
     }
     button:focus {
         outline: 0;
     }
     .navbar-toggler i{
-        color: #fff;
+        color: #f35c00;
         font-size: 24px;
     }
     .navbar-collapse {
-        background: #222;
+        background: #f35c00;
         text-align: center;
         padding-top: 10px;
     }
@@ -566,17 +566,17 @@
 /*============================================Medium device====================================*/
 @media(min-width:768px) and (max-width:991px){
     .navbar-light .navbar-toggler {
-        border-color: transparent;
+        border-color: #f35c00;
     }
     button:focus {
         outline: 0;
     }
     .navbar-toggler i{
-        color: #fff;
+        color: #f35c00;
         font-size: 24px;
     }
     .navbar-collapse {
-        background: #222;
+        background: #f35c00;
         text-align: center;
         padding-top: 10px;
     }

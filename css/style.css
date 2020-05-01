@@ -108,9 +108,9 @@ img {
 }
 /*==========================================Navbar part start============================================*/
 .navbar {
-  background: rgba(243, 216, 222, 0.75);
-  padding-top: 15px;
-  padding-bottom: 15px;
+  /* background: rgba(243, 216, 222, 0.75); */
+  padding-top: 4px;
+  padding-bottom: 4px;
   position: absolute;
   top: 0;
   width: 100%;
@@ -118,7 +118,8 @@ img {
   transition: all linear 0.3s;
 }
 .nav-bg {
-  background: rgb(233, 175, 188);
+  /* background: rgb(233, 175, 188); */
+  background: #fff;
   border-color: #080808;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
   animation: bg 1s;
@@ -137,13 +138,14 @@ img {
 }
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #3084ca;
+  color: #a1968e;
 }
 .navbar .navbar-brand img {
   width: 130px;
 }
 .navbar-light .navbar-nav .nav-link {
-  color: #3084ca;
+  /* color: #3084ca; */
+  color: black;
   font-size: 14px;
   text-transform: uppercase;
   font-family: msb;
@@ -152,17 +154,17 @@ img {
   display: inline-block;
 }
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #cb4561;
+  color: #f35c00;
 }
 .navbar-light .navbar-nav .nav-link.active {
-  color: #cb4561;
+  color: #f35c00;
 }
 .navbar-light .navbar-nav .nav-link:after {
   position: absolute;
   content: "";
   width: 0;
   height: 2px;
-  background: #cb4561;
+  background: #f35c00;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -210,13 +212,13 @@ img {
   .search-sec {
     position: relative;
     top: -114px;
-    background: rgba(243, 216, 222, 0.51);
+    background: rgba(243, 92, 0, 0.30);
   }
 }
 
 @media (max-width: 992px) {
   .search-sec {
-    background: #1a4668;
+    background: rgba(243, 92, 0, 0.51);
   }
 }
 /*==========================================Slider and search part end============================================*/
@@ -265,7 +267,7 @@ img {
 }
 
 .team-member {
-  border: 3px solid #3084ca;
+  border: 1px solid rgba(102, 102, 102, 0.22);
 }
 .team-member,
 .team-img {
@@ -357,11 +359,7 @@ img {
 
 .socials a:hover i {
   color: #fff;
-  background-color: #3084ca;
-}
-.socials.female a:hover i {
-  color: #fff;
-  background-color: #cb4561;
+  background-color: #f35c00;
 }
 
 /*=======================================Banner part start============================================*/
@@ -578,7 +576,7 @@ button:focus {
   transition: all linear 0.7s;
 }
 #service .slick-center .service-item h3 {
-  color: #3084ca;
+  color: #f35c00;
   transition: all linear 0.3s;
 }
 .service-item h3 {
@@ -619,7 +617,7 @@ button:focus {
   background: rgba(0, 0, 0, 0.8);
 }
 .counter-item {
-  border: 1px dashed #3084ca;
+  border: 1px dashed #f35c00;
   padding: 25px 0;
   border-radius: 10px;
 }
@@ -641,7 +639,7 @@ button:focus {
 }
 .counter-item h3 {
   font-size: 30px;
-  color: #3084ca;
+  color: #fff;
   font-family: msb;
   padding-top: 18px;
 }
@@ -749,7 +747,7 @@ button:focus {
 .testim .arrow {
   display: block;
   position: absolute;
-  color: #cb4561;
+  color: #f35c00;
   cursor: pointer;
   font-size: 24px;
   top: 50%;
@@ -757,7 +755,7 @@ button:focus {
   transition: all linear 0.3s;
   padding: 10px 15px;
   z-index: 9;
-  border: 1px solid #3084ca;
+  border: 1px solid #f35c00;
 }
 
 .testim .arrow:before {
@@ -765,8 +763,8 @@ button:focus {
 }
 
 .testim .arrow:hover {
-  color: #cb4561;
-  background: #3084ca;
+  color: #000000;
+  background: #f35c00;
   border: 1px solid #3084ca;
 }
 .testim .arrow.left {
@@ -794,7 +792,7 @@ button:focus {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  border: 1px solid #3084ca;
+  border: 1px solid #000000;
   margin: 0 10px;
   cursor: pointer;
   transition: all 0.5s ease-in-out;
@@ -803,8 +801,8 @@ button:focus {
 
 .testim .dots .dot.active,
 .testim .dots .dot:hover {
-  background: #cb4561;
-  border-color: #3084ca;
+  background: #f35c00;
+  border-color: #000000;
 }
 
 .testim .dots .dot.active {
@@ -843,7 +841,7 @@ button:focus {
 }
 
 .testim .cont div h4 {
-  color: #3084ca;
+  color: #f35c00;
   font-size: 24px;
   font-family: msb;
   margin-bottom: 15px;
@@ -907,11 +905,11 @@ button:focus {
   }
 
   70% {
-    box-shadow: 0px 0px 10px 5px #2bcbba;
+    box-shadow: 0px 0px 10px 5px #f35c00;
   }
 
   100% {
-    box-shadow: 0px 0px 0px 0px #2bcbba;
+    box-shadow: 0px 0px 0px 0px #f35c00;
   }
 }
 
@@ -1106,7 +1104,7 @@ button:focus {
   right: 0;
 }
 .share-toggle i {
-  color: #3498db;
+  color: #f35c00;
   font-size: 14px;
 }
 .share-icon {
@@ -1187,7 +1185,7 @@ a#share.fa-share-alt::before {
 }
 .effect2 .ctttn {
   background: none;
-  border: 2px solid #3498db;
+  border: 2px solid #f35c00;
   font-family: osr;
   text-transform: capitalize;
   padding: 10px 20px;
@@ -1207,7 +1205,7 @@ a#share.fa-share-alt::before {
   top: 0;
   width: 100%;
   height: 100%;
-  background: #3498db;
+  background: #f35c00;
   z-index: -1;
   transition: transform 0.5s;
   transform-origin: 0 0;
@@ -1234,7 +1232,7 @@ button:focus {
   width: 70px;
   line-height: 70px;
   background: #fff;
-  color: #3498db;
+  color: #f35c00;
   border-radius: 50%;
   font-size: 20px;
   text-align: center;
@@ -1281,12 +1279,12 @@ button:focus {
   cursor: pointer;
 }
 .contact-item:hover {
-  border: 1px solid #3084ca;
+  border: 1px solid #f35c00;
   background: none;
 }
 .contact-item .i-con {
   color: #fff;
-  background: #3084ca;
+  background: #f35c00;
   font-size: 18px;
   width: 50px;
   height: 50px;
@@ -1319,7 +1317,7 @@ button:focus {
   cursor: pointer;
 }
 .contact-mess:hover {
-  border: 1px solid #3084ca;
+  border: 1px solid #f35c00;
   background: none;
 }
 .mr3 {
@@ -1337,7 +1335,7 @@ button:focus {
 }
 .form-control:focus {
   box-shadow: none;
-  border-color: #3084ca;
+  border-color: #f35c00;
 }
 .form-control {
   border: 1px solid rgba(221, 221, 221, 0.8);
@@ -1362,8 +1360,8 @@ textarea.form-control {
   left: 50%;
   transform: translateX(-50%);
   color: #fff;
-  background: #3084ca;
-  border: 1px solid #cb4561;
+  background: #f35c00;
+  border: 1px solid #f35c00;
   font-family: osr;
   font-size: 14px;
   padding: 10px 15px;
@@ -1371,8 +1369,8 @@ textarea.form-control {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #cb4561;
-  border-color: #3084ca;
+  background-color: #ff8133;
+  border-color: #f35c00;
 }
 /*========================================Back to top button part start=================================*/
 .back-to-top {
@@ -1385,7 +1383,7 @@ textarea.form-control {
 .back-to-top i {
   width: 40px;
   height: 40px;
-  background: #3084ca;
+  background: #f35c00;
   color: #fff;
   line-height: 40px;
   text-align: center;
@@ -1393,7 +1391,7 @@ textarea.form-control {
   transition: all linear 0.3s;
 }
 .back-to-top:hover i {
-  background: #cb4561;
+  background: #ff8133;
   color: #fff;
 }
 /*================================================CopyRight part start================================*/
@@ -1408,6 +1406,6 @@ textarea.form-control {
   font-size: 16px;
 }
 .fop-btm a {
-  color: #3084ca;
+  color: #ff8133;
   font-family: mb;
 }
