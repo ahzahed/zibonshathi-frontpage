@@ -1,87 +1,90 @@
-body {
+/* body {
   background: -webkit-linear-gradient(left, #3084ca, #cb4561);
-}
+} */
+
+
 /*==========================================Navbar part start============================================*/
 .navbar {
-    background: rgba(243, 216, 222, 0.75);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    position: absolute;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
-    transition: all linear 0.3s;
+  background: #ffffff;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+  transition: all linear 0.3s;
+}
+.nav-bg {
+  /* background: rgb(233, 175, 188); */
+  border-color: #080808;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+  animation: bg 1s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99999;
+}
+@keyframes bg {
+  from {
+    top: -50px;
   }
-  .nav-bg {
-    background: rgb(233, 175, 188);
-    border-color: #080808;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
-    animation: bg 1s;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 99999;
+  to {
+    top: 0px;
   }
-  @keyframes bg {
-    from {
-      top: -50px;
-    }
-    to {
-      top: 0px;
-    }
-  }
-  .navbar-light .navbar-nav .nav-link:focus,
-  .navbar-light .navbar-nav .nav-link:hover {
-    color: #3084ca;
-  }
-  .navbar .navbar-brand img {
-    width: 130px;
-  }
-  .navbar-light .navbar-nav .nav-link {
-    color: #3084ca;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-family: msb;
-    transition: all linear 0.3s;
-    position: relative;
-    display: inline-block;
-  }
-  .navbar-light .navbar-nav .nav-link:hover {
-    color: #cb4561;
-  }
-  .navbar-light .navbar-nav .nav-link.active {
-    color: #cb4561;
-  }
-  .navbar-light .navbar-nav .nav-link:after {
-    position: absolute;
-    content: "";
-    width: 0;
-    height: 2px;
-    background: #cb4561;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    opacity: 0;
-    transition: all linear 0.3s;
-  }
-  .navbar-light .navbar-nav .nav-link:hover::after {
-    opacity: 1;
-    width: 40%;
-  }
-  .navbar-light .navbar-nav .nav-link.active:after {
-    opacity: 1;
-    width: 40%;
-  }
-  .navbar-expand-lg .navbar-nav .nav-link {
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #a1968e;
+}
+.navbar .navbar-brand img {
+  width: 130px;
+}
+.navbar-light .navbar-nav .nav-link {
+  /* color: #3084ca; */
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: msb;
+  transition: all linear 0.3s;
+  position: relative;
+  display: inline-block;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f35c00;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  color: #f35c00;
+}
+.navbar-light .navbar-nav .nav-link:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  background: #f35c00;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: all linear 0.3s;
+}
+.navbar-light .navbar-nav .nav-link:hover::after {
+  opacity: 1;
+  width: 40%;
+}
+.navbar-light .navbar-nav .nav-link.active:after {
+  opacity: 1;
+  width: 40%;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
 
 
 .emp-profile {
   padding: 3%;
-  margin-top: 7%;
+  margin-top: 9%;
   margin-bottom: 3%;
   border-radius: 0.5rem;
   background: #fff;

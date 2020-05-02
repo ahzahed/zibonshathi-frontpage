@@ -15,21 +15,9 @@
         text-align: center;
         padding-top: 10px;
     }
-    .banner-content {
-        margin-left: 0px;
-        text-align: center;
-    }
-    .banner-content h1 {
-        font-size: 30px;
-    }
-    .banner-content p {
-        padding-bottom: 0px;
-        padding-right: 0;
-        font-size: 18px;
-    }
-    #banner {
-        padding: 150px 0 130px;
-    }
+    .carousel-inner img{
+        height: 300px;
+      }
     .mrrr{
         margin-left: 0px;
     }
@@ -404,12 +392,9 @@
         text-align: center;
         margin-left: 0px;
     }
-    .banner-content h1 {
-        font-size: 54px;
-    }
-    #banner {
-        padding: 150px 0 140px;
-    }
+    .carousel-inner img{
+        height: 300px;
+      }
     #about {
         padding-top: 75px;
     }
@@ -586,16 +571,9 @@
         margin-bottom: 10px;
         margin-top: 10px;
     }
-    .banner-content {
-        margin-left: 0px; 
-        text-align: center;
-    }
-    .banner-content h1 {
-        font-size: 56px;
-    }
-    #banner {
-        padding: 150px 0 140px;
-    }
+    .carousel-inner img{
+        height: 350px;
+      }
     .mrrr {
         margin-left: 0px;
         text-align: center;

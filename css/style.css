@@ -185,6 +185,9 @@ img {
 }
 
 /*==========================================Slider and Search part start============================================*/
+.carousel-inner img{
+  height: 530px;
+}
 .search-sec {
   padding: 1rem;
 }
@@ -235,6 +238,28 @@ img {
     margin-top: 0px;
   }
 } */
+#maleFeatured .team-row .team-member a.btn{
+  background: #f35c00;
+}
+#maleFeatured .team-row .team-member a.btn:hover{
+  background: #ff8133;
+}
+.femaleFeatured .viewAll{
+  background: -webkit-linear-gradient(left, #f35c00, black);
+  color: white;
+}
+.femaleFeatured .viewAll:hover{
+  background: -webkit-linear-gradient(left, black, #f35c00);
+  color: white;
+}
+#maleFeatured .viewAll{
+  background: -webkit-linear-gradient(left, #f35c00, black);
+  color: white;
+}
+#maleFeatured .viewAll:hover{
+  background: -webkit-linear-gradient(left, black, #f35c00);
+  color: white;
+}
 @media (min-width: 575px) and (max-width: 1199px) {
   .femaleFeatured {
     margin-top: 100px;
